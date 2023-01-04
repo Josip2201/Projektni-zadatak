@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+  <head>
+    <title>Factorio</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Josip Širanović">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="images/x-icon" href="https://tinyurl.com/facticon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css3.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="logo" ><img src="https://raw.githubusercontent.com/Josip2201/Projektni-2/main/Slike/Factorio-logo.png" alt="Factorio" class="Factorio"></div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="div1">
+            <div class="div2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eligendi esse laudantium itaque aut, quaerat unde voluptates, id nobis eveniet rem. Corrupti, minus. Quos adipisci perspiciatis, similique deserunt voluptatum ullam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis assumenda neque aperiam quasi necessitatibus omnis sunt nesciunt autem harum nulla magnam quisquam quibusdam quia, laboriosam quam eum delectus. Sint, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolore quas, aliquam quasi aut ratione, dolorem facere eaque ad temporibus, et adipisci. Alias fugit aspernatur obcaecati expedita adipisci. Maiores, molestiae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, voluptatibus eveniet, magni alias quasi distinctio unde odio ex officiis natus ea suscipit soluta eius, ipsam cupiditate. Eaque dolor praesentium doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. At sequi sed, eligendi cumque repellat vero sint nihil sunt voluptatem non perferendis culpa laborum nulla ea eveniet incidunt, soluta nobis eius!</div>
+        </div>
+    </main>
+  </body>
+</html>
