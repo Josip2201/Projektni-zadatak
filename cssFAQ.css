@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+body,
+html {
+    background-image: url(https://raw.githubusercontent.com/Josip2201/Projektni-zadatak/main/Slike/pozadina.PNG);
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+
+}
+
+header {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    justify-content: center;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+
+h1 {
+    font-family: 'Saira Stencil One', cursive;
+    color: whitesmoke;
+    padding-top: 7px;
+    padding: 10px;
+    margin: 15px;
+    justify-content: center;
+}
+
+nav {
+    margin-top: 60px;
+}
+
+ul {
+    justify-content: center;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+li {
+    justify-content: center;
+}
+
+ul a {
+
+    text-decoration: none;
+    background: #616161;
+    border: 1px solid whitesmoke;
+
+}
+
+li a {
+
+    font-size: 22px;
+    font-family: 'Saira Stencil One', cursive;
+    display: block;
+    color: #1d1b1b;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: rgb(212, 145, 0);
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+div {
+    width: 75%;
+    margin: 10px;
+    padding: 10px 5px;
+    background-color: #414040;
+    border: #313031 solid 10px;
+    color: whitesmoke;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+    section {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    section {
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    section {
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+
+p {
+    
+    padding: 10px;
+    margin: 25px;
+}
+
+div img {
+    width: 100%;
+    border: #313031 solid 5px;
+}
+
+a{
+    color: rgb(0, 140, 255);
+}
