@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+body,
+html {
+    background-image: url(https://raw.githubusercontent.com/Josip2201/Projektni-zadatak/main/Slike/pozadina.PNG);
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+   
+}
+
+header {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    margin: 1em;
+}
+
+
+h1 {
+    font-family: 'Saira Stencil One', cursive;
+    color: whitesmoke;
+    background-color: #616161;
+    padding-top: 7px;
+    padding: 10px;
+    margin: 15px;
+    border: #313031 5px solid;
+    justify-content: center;
+}
+
+table{
+    margin: auto;
+}
+
+#contact {
+	margin: 1em;
+}
+
+div.form-group{
+    display: flex;
+    width: 100%;
+}
+#logo {
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+div {
+    display: block;
+  }
+
+img.Factorio {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+    margin: 50px;
+}
+
+nav{
+  margin-top: 60px;
+}
+
+ul {
+    justify-content: center;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+li {
+    justify-content: center;
+}
+
+ul a {
+   
+    text-decoration: none;
+    background: #616161;
+    border: 1px solid whitesmoke;
+
+}
+
+li a {
+
+    font-size: 22px;
+    font-family: 'Saira Stencil One', cursive;
+    display: block;
+    color: #1d1b1b;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: rgb(212, 145, 0);
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+  }
+
+  * {box-sizing: border-box;}
+
+  input[type=text], select, textarea {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=email], select, textarea {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #313031;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(212, 145, 0);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  #wrapper{
+    border:7px solid #616161;
+    min-height:250px;
+    height:100%;
+    width: 100%;
+  }
+  
