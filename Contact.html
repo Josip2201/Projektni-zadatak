@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+  <head>
+    <title>Factorio | Contact</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Josip Širanović">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="images/x-icon" href="https://tinyurl.com/facticon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="cssContact.css"/>
+  </head>
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="FAQ.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <tr>
+              <td><h1>Contact Form</h1></td>
+            </tr>
+        </table>
+		<div id="contact">
+            <div id="wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2555.072253451059!2d14.424127915721547!3d50.17848537943877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bea3ecb0bf155%3A0x2243dd35a26700e2!2sFactorio%20Solutions!5e0!3m2!1shr!2shr!4v1672949858812!5m2!1shr!2shr" width="100%" height="450" style="border:0; justify-content: center;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+			<form action="https://factorio.com/support/contact/submit" method="post">
+                <div class="form-group">
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name.." class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last natme.." class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your e-mail.." class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <select id="country" name="country" class="form-control">
+                      <option value="">Please select</option>
+                      <option value="BE">Belgium</option>
+                      <option value="HR" selected>Croatia</option>
+                      <option value="LU">Spain</option>
+                      <option value="HU">Germany</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Write something..." class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-default" value="Send">
+                </div>
+            </form>
+		</div>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023. Josip Širanović. <a href="https://github.com/Josip2201?tab=repositories"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm_2jbf1PzvxUxiyvX_ssQB-t1QvO-qPVpEw&usqp=CAU" title="Github" alt="Github" style="width:24px; margin-top:0.4em"></a></p>
+    </footer>
+  </body>
+</html>
